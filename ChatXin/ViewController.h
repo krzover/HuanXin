@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    __weak IBOutlet UITextField *_userId;
+    __weak IBOutlet UITextField *_userPSW;
+    __weak IBOutlet UISwitch *_autoLoginSwitch;
+    
+}
 
 
 @end

@@ -19,6 +19,17 @@
 		577A2A651C7DCA3400AE5CF4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 577A2A641C7DCA3400AE5CF4 /* libz.tbd */; };
 		577A2A671C7DCA3F00AE5CF4 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 577A2A661C7DCA3F00AE5CF4 /* libstdc++.6.0.9.tbd */; };
 		577A2A691C7DCA4800AE5CF4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 577A2A681C7DCA4800AE5CF4 /* libsqlite3.tbd */; };
+		577A2A721C7DEA7F00AE5CF4 /* PersonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 577A2A701C7DEA7F00AE5CF4 /* PersonManager.m */; };
+		577A2A731C7DEA7F00AE5CF4 /* PersonManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577A2A711C7DEA7F00AE5CF4 /* PersonManager.xib */; };
+		577A2A771C7DEA9400AE5CF4 /* FriendList.m in Sources */ = {isa = PBXBuildFile; fileRef = 577A2A751C7DEA9400AE5CF4 /* FriendList.m */; };
+		577A2A781C7DEA9400AE5CF4 /* FriendList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577A2A761C7DEA9400AE5CF4 /* FriendList.xib */; };
+		577A2A7C1C7DEAA800AE5CF4 /* MessageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 577A2A7A1C7DEAA800AE5CF4 /* MessageList.m */; };
+		577A2A7D1C7DEAA800AE5CF4 /* MessageList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577A2A7B1C7DEAA800AE5CF4 /* MessageList.xib */; };
+		577A2A811C7DED2200AE5CF4 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 577A2A7E1C7DED2200AE5CF4 /* 1.png */; };
+		577A2A821C7DED2200AE5CF4 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 577A2A7F1C7DED2200AE5CF4 /* 3.png */; };
+		577A2A831C7DED2200AE5CF4 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 577A2A801C7DED2200AE5CF4 /* 4.png */; };
+		577A2A871C7DF81000AE5CF4 /* AddFriendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 577A2A851C7DF81000AE5CF4 /* AddFriendView.m */; };
+		577A2A881C7DF81000AE5CF4 /* AddFriendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577A2A861C7DF81000AE5CF4 /* AddFriendView.xib */; };
 		577D6BCC1C7DC3790092AB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D6BCB1C7DC3790092AB4B /* main.m */; };
 		577D6BCF1C7DC3790092AB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D6BCE1C7DC3790092AB4B /* AppDelegate.m */; };
 		577D6BD21C7DC3790092AB4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D6BD11C7DC3790092AB4B /* ViewController.m */; };
@@ -71,6 +82,21 @@
 		577A2A641C7DCA3400AE5CF4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		577A2A661C7DCA3F00AE5CF4 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		577A2A681C7DCA4800AE5CF4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		577A2A6F1C7DEA7F00AE5CF4 /* PersonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonManager.h; sourceTree = "<group>"; };
+		577A2A701C7DEA7F00AE5CF4 /* PersonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonManager.m; sourceTree = "<group>"; };
+		577A2A711C7DEA7F00AE5CF4 /* PersonManager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonManager.xib; sourceTree = "<group>"; };
+		577A2A741C7DEA9400AE5CF4 /* FriendList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendList.h; sourceTree = "<group>"; };
+		577A2A751C7DEA9400AE5CF4 /* FriendList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendList.m; sourceTree = "<group>"; };
+		577A2A761C7DEA9400AE5CF4 /* FriendList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendList.xib; sourceTree = "<group>"; };
+		577A2A791C7DEAA800AE5CF4 /* MessageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageList.h; sourceTree = "<group>"; };
+		577A2A7A1C7DEAA800AE5CF4 /* MessageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageList.m; sourceTree = "<group>"; };
+		577A2A7B1C7DEAA800AE5CF4 /* MessageList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageList.xib; sourceTree = "<group>"; };
+		577A2A7E1C7DED2200AE5CF4 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		577A2A7F1C7DED2200AE5CF4 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		577A2A801C7DED2200AE5CF4 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		577A2A841C7DF81000AE5CF4 /* AddFriendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendView.h; sourceTree = "<group>"; };
+		577A2A851C7DF81000AE5CF4 /* AddFriendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendView.m; sourceTree = "<group>"; };
+		577A2A861C7DF81000AE5CF4 /* AddFriendView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddFriendView.xib; sourceTree = "<group>"; };
 		577D6BC71C7DC3790092AB4B /* ChatXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577D6BCB1C7DC3790092AB4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		577D6BCD1C7DC3790092AB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -161,6 +187,62 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		577A2A6A1C7DE93900AE5CF4 /* 登录液面 */ = {
+			isa = PBXGroup;
+			children = (
+				577D6BCD1C7DC3790092AB4B /* AppDelegate.h */,
+				577D6BCE1C7DC3790092AB4B /* AppDelegate.m */,
+				577D6BD01C7DC3790092AB4B /* ViewController.h */,
+				577D6BD11C7DC3790092AB4B /* ViewController.m */,
+				577D6BD31C7DC3790092AB4B /* Main.storyboard */,
+			);
+			name = "登录液面";
+			sourceTree = "<group>";
+		};
+		577A2A6B1C7DE95400AE5CF4 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				577D6BD91C7DC3790092AB4B /* Assets.xcassets */,
+				577D6BDB1C7DC3790092AB4B /* LaunchScreen.storyboard */,
+				577D6BDE1C7DC3790092AB4B /* Info.plist */,
+				577D6BD61C7DC3790092AB4B /* ChatXin.xcdatamodeld */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		577A2A6C1C7DE9F500AE5CF4 /* 消息页面 */ = {
+			isa = PBXGroup;
+			children = (
+				577A2A791C7DEAA800AE5CF4 /* MessageList.h */,
+				577A2A7A1C7DEAA800AE5CF4 /* MessageList.m */,
+				577A2A7B1C7DEAA800AE5CF4 /* MessageList.xib */,
+			);
+			name = "消息页面";
+			sourceTree = "<group>";
+		};
+		577A2A6D1C7DEA0000AE5CF4 /* 好友列表 */ = {
+			isa = PBXGroup;
+			children = (
+				577A2A741C7DEA9400AE5CF4 /* FriendList.h */,
+				577A2A751C7DEA9400AE5CF4 /* FriendList.m */,
+				577A2A761C7DEA9400AE5CF4 /* FriendList.xib */,
+				577A2A841C7DF81000AE5CF4 /* AddFriendView.h */,
+				577A2A851C7DF81000AE5CF4 /* AddFriendView.m */,
+				577A2A861C7DF81000AE5CF4 /* AddFriendView.xib */,
+			);
+			name = "好友列表";
+			sourceTree = "<group>";
+		};
+		577A2A6E1C7DEA0D00AE5CF4 /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				577A2A6F1C7DEA7F00AE5CF4 /* PersonManager.h */,
+				577A2A701C7DEA7F00AE5CF4 /* PersonManager.m */,
+				577A2A711C7DEA7F00AE5CF4 /* PersonManager.xib */,
+			);
+			name = "个人中心";
+			sourceTree = "<group>";
+		};
 		577D6BBE1C7DC3780092AB4B = {
 			isa = PBXGroup;
 			children = (
@@ -180,16 +262,15 @@
 		577D6BC91C7DC3790092AB4B /* ChatXin */ = {
 			isa = PBXGroup;
 			children = (
+				577A2A7E1C7DED2200AE5CF4 /* 1.png */,
+				577A2A7F1C7DED2200AE5CF4 /* 3.png */,
+				577A2A801C7DED2200AE5CF4 /* 4.png */,
+				577A2A6E1C7DEA0D00AE5CF4 /* 个人中心 */,
+				577A2A6D1C7DEA0000AE5CF4 /* 好友列表 */,
+				577A2A6C1C7DE9F500AE5CF4 /* 消息页面 */,
+				577A2A6A1C7DE93900AE5CF4 /* 登录液面 */,
 				577A2A311C7DC98C00AE5CF4 /* HyphenateSDK */,
-				577D6BCD1C7DC3790092AB4B /* AppDelegate.h */,
-				577D6BCE1C7DC3790092AB4B /* AppDelegate.m */,
-				577D6BD01C7DC3790092AB4B /* ViewController.h */,
-				577D6BD11C7DC3790092AB4B /* ViewController.m */,
-				577D6BD31C7DC3790092AB4B /* Main.storyboard */,
-				577D6BD91C7DC3790092AB4B /* Assets.xcassets */,
-				577D6BDB1C7DC3790092AB4B /* LaunchScreen.storyboard */,
-				577D6BDE1C7DC3790092AB4B /* Info.plist */,
-				577D6BD61C7DC3790092AB4B /* ChatXin.xcdatamodeld */,
+				577A2A6B1C7DE95400AE5CF4 /* other */,
 				577D6BCA1C7DC3790092AB4B /* Supporting Files */,
 			);
 			path = ChatXin;
@@ -272,9 +353,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577A2A831C7DED2200AE5CF4 /* 4.png in Resources */,
+				577A2A731C7DEA7F00AE5CF4 /* PersonManager.xib in Resources */,
+				577A2A781C7DEA9400AE5CF4 /* FriendList.xib in Resources */,
 				577D6BDD1C7DC3790092AB4B /* LaunchScreen.storyboard in Resources */,
+				577A2A881C7DF81000AE5CF4 /* AddFriendView.xib in Resources */,
+				577A2A821C7DED2200AE5CF4 /* 3.png in Resources */,
 				577D6BDA1C7DC3790092AB4B /* Assets.xcassets in Resources */,
 				577D6BD51C7DC3790092AB4B /* Main.storyboard in Resources */,
+				577A2A7D1C7DEAA800AE5CF4 /* MessageList.xib in Resources */,
+				577A2A811C7DED2200AE5CF4 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +374,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				577D6BD21C7DC3790092AB4B /* ViewController.m in Sources */,
+				577A2A721C7DEA7F00AE5CF4 /* PersonManager.m in Sources */,
+				577A2A7C1C7DEAA800AE5CF4 /* MessageList.m in Sources */,
 				577D6BCF1C7DC3790092AB4B /* AppDelegate.m in Sources */,
 				577D6BCC1C7DC3790092AB4B /* main.m in Sources */,
 				577D6BD81C7DC3790092AB4B /* ChatXin.xcdatamodeld in Sources */,
+				577A2A871C7DF81000AE5CF4 /* AddFriendView.m in Sources */,
+				577A2A771C7DEA9400AE5CF4 /* FriendList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,11 +490,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChatXin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ChatXin/HyphenateSDK/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/ChatXin/HyphenateSDK/lib/libHyphenateSDK.a\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mootootoo.www.ChatXin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,11 +510,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChatXin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ChatXin/HyphenateSDK/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/ChatXin/HyphenateSDK/lib/libHyphenateSDK.a\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mootootoo.www.ChatXin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
